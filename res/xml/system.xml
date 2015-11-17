@@ -20,4 +20,16 @@
             android:title="@string/show_cpu_info"
             android:summary="@string/show_cpu_info_summary"/>
 
+    <PreferenceCategory
+        android:key="omni_recents_panel"
+        android:title="@string/omniswitch_category" />
+
+        <!-- OmniSwitch -->
+        <PreferenceScreen
+            android:key="omniswitch"
+            android:id="@+id/omniswitch"
+            android:title="@string/omniswitch_settings_title"
+            android:icon="@drawable/nuclear_recents_switcher_icon"
+            android:fragment="com.android.settings.nuclear.OmniSwitch" />
+
 </PreferenceScreen>
