@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- Nuclear custom settings main -->
+    <string name="nuclear_activity_title">Nuclear Settings</string>
+    <string name="nuclear_title">Nuclear Tweaks</string>
+    <string name="nuclear_settings_title">Categories</string>
+
+    <!-- Tabs -->
+    <string name="generalui_category">General UI</string>
+    <string name="statusbar_category">Status Bar</string>
+    <string name="navigation_category">Navigation Bar</string>
+    <string name="multitasking_category">Recents</string>
+    <string name="system_category">System</string>
+    <string name="lockscreen_category">LockScreen</string>
+
+    <!-- Tab GeneralUI -->
+    <string name="appearance_settings_title">Appearance Settings</string>
+    <string name="ledsnot_settings_title">Led Settings</string>
+    <string name="gesture_settings_title">Gesture Settings</string>
+    <!-- Dialog -->
+    <string name="nucleartweaks_dialog_title">Help Us, Help You!!</string>
+    <string name="nucleartweaks_dialog_message">Unfortunately we are not wizards!\n\nSo if you find a bug with any of these settings, please contact a Nuclear Team developer(WEB, HTCMania Or XDAdeveloper) with the following.\n\n1. Logcat or Last_Kmsg\n2. Kernel and Mods used\n3. Useful information\n\nIf you fail to report something, do not expect things to be fixed. Remember, we are not wizards so we do miss things.</string>
+    <string name="nucleartweaks_dialog_toast">READ THE WHOLE THING!</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
+    <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_frequency">Update interval</string>
+    <string name="show_network_traffic_disable">Disabled</string>
+    <string name="show_network_traffic_up">Outgoing</string>
+    <string name="show_network_traffic_down">Incoming</string>
+    <string name="show_network_traffic_all">Outgoing and incoming</string>
+    <string name="show_network_traffic_bit">Bits per second</string>
+    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_color_style">Color style</string>
+    <string name="network_traffic_color_reset">Reset color</string>
+    <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">Gesture Anywhere</string>
+    <string name="gesture_anywhere_enabled_title">Gesture Anywhere</string>
+    <string name="gesture_anywhere_enabled_summary">Enable the Gesture Anywhere feature</string>
+    <string name="gesture_anywhere_position_title">Loction</string>
+    <string name="gesture_anywhere_position_left">Left edge</string>
+    <string name="gesture_anywhere_position_right">Right edge</string>
+    <string name="gesture_anywhere_gestures_title">Gestures</string>
+    <string name="gesture_anywhere_gestures_summary">Add, remove, and edit gestures</string>
+    <!-- Label, button used to add a gesture -->
+    <string name="ga_button_add">Add gesture</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="ga_button_reload">Reload</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="ga_button_discard">Discard</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="ga_button_done">Done</string>
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="ga_prompt_gesture_name">Name</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="ga_error_missing_name">You must enter a name</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="ga_save_success">Gesture saved in %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_cancel_action">Cancel</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="ga_gestures_loading">Loading gestures...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="ga_gestures_empty">No gestures</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="ga_gestures_activity">Gestures</string>
+    <!-- Noun, menu item used to edit a gesture -->
+    <string name="ga_gestures_edit">Edit</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="ga_gestures_delete">Delete</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="ga_gestures_delete_success">Gesture deleted</string>
+    <!-- Title of dialog box -->
+    <string name="ga_gestures_rename_title">Rename gesture</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="ga_gestures_rename_label">Gesture name</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <string name="ga_gestures_error_loading">Could not load %s. Make sure you have storage available.</string>
+    <string name="trigger_category">Trigger region</string>
+    <string name="trigger_width_title">Trigger width</string>
+    <string name="trigger_width_summary">Adjust the width of the trigger area</string>
+    <string name="trigger_top_title">Trigger position</string>
+    <string name="trigger_top_summary">Adjust the vertical postion of the trigger area</string>
+    <string name="trigger_bottom_title">Trigger height</string>
+    <string name="trigger_bottom_summary">Adjust the height of the trigger area</string>
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_app_title">Select custom app</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="profile_applist_title">Applications</string>
+    <string name="rr_gesture_title">Gestures</string>
+
+    <!-- About NucleaRomReborn -->
+    <string name="about_ns_settings_title">NucleaRom</string>
+    <string name="share_ns">Todo sobre NucleaRom</string>
+    <string name="ns_donate">Aporta una donación al NuclearTeam</string>
+    <string name="ns_donate_summary">Dando soporte a NuclearTeam</string>
+    <string name="github_tn">https://github.com/OneRomOne</string>
+    <string name="ns">Links</string>
+    <string name="ns_kernel_title">Kernel Website</string>
+    <string name="ns_kernel_summary">Mas informacion acerca del kernel</string>
+    <string name="ns_forum_title">NucleaRom ForumSite</string>
+    <string name="ns_forum_summary">Consulta las ultimas descargas</string>
+    <string name="ns_source_title">Github</string>
+    <string name="ns_source_summary">NucleaRom Sources</string>
+    <string name="sourcebase_title">Source Base</string>
+    <string name="title_about">Acerca de NucleaRom</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title_summary">Consulta los changelogs</string>
+    <string name="team_nuclear">Miembros NuclearTeam</string>
+    <string name="moludo">Moludo</string>
+    <string name="lozo">Lozo</string>
+    <string name="acuicultor">Acuicultor</string>
+    <string name="ordenkrieger">OrdenKrieger</string>
+    <string name="evuz">Evuz</string>
+    <string name="victoria">Victoria</string>
+    <string name="arma">Armallones</string>
+    <string name="sonia">UnaiMunariz</string>
+    <string name="chris">pSyCh¤_O_O</string>
+    <string name="santos">Gusy_80</string>
+    <string name="alfo">alfo!!!</string>
+    <string name="dtr">DTR</string>
+    <string name="devs_title">Devs</string>
+    <string name="maintainer_title">Maintainer thread</string>
+    <string name="testers_title">Testers</string>
+    <string name="ns_sourcebase">CyanogenMod</string>
+    <string name="ns_sourcebase_sumary">https://github.com/CyanogenMod</string>
+
+	<!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Superuser indicator</string>
+    <string name="su_indicator_summary_on">Superuser indicator is visible when a session is active</string>
+    <string name="su_indicator_summary_off">Toggle to show superuser indicator when a session is active</string>
+
+    <!-- Changelog -->
+    <string name="changelog_crdroid_title">Changelog</string>
+    <string name="changelog_crdroid_error">Unable to load changelog</string>
+
+    <string name="double_tap_sleep_anywhere_title">Double Tap Sleep LockScreen</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap on the top third or the bottom shortcut area to sleep</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Show CPU info</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+
+    <!--Clock & Date Category-->
+        <string name="clock_settings_title">Clock Settings</string>
+        <string name="status_bar_clock_category">Clock</string>
+        <string name="status_bar_date_title">Date</string>
+        <string name="status_bar_clock_style_title">Clock style</string>
+        <string name="status_bar_clock_style_right">Right</string>
+        <string name="status_bar_clock_style_left">Left</string>
+        <string name="status_bar_clock_style_center">Center</string>
+        <string name="status_bar_clock_style_hidden">Hidden</string>
+        <string name="status_bar_clock_style_title">Clock style</string>
+        <string name="status_bar_clock_style_right">Right</string>
+        <string name="status_bar_clock_style_left">Left</string>
+        <string name="status_bar_clock_style_center">Center</string>
+        <string name="status_bar_clock_style_hidden">Hidden</string>
+        <string name="clock_date_position">Date position</string>
+        <string name="clock_date_right">Right of time</string>
+        <string name="clock_date_left">Left of time</string>
+        <string name="status_bar_am_pm_title">AM/PM style</string>
+        <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+        <string name="status_bar_am_pm_normal">Normal</string>
+        <string name="status_bar_am_pm_small">Small</string>
+        <string name="status_bar_am_pm_hidden">Hidden</string>
+        <string name="status_bar_date_none">Hidden (default)</string>
+        <string name="status_bar_date_small">Small</string>
+        <string name="status_bar_date_normal">Normal</string>
+        <string name="status_bar_date_format_title">Date format</string>
+        <string name="status_bar_date_style">Date style</string>
+        <string name="status_bar_date_style_normal">Normal</string>
+        <string name="status_bar_date_style_lowercase">Lowercase</string>
+        <string name="status_bar_date_style_uppercase">Uppercase</string>
+        <string name="status_bar_date_format_custom">Custom java format</string>
+        <string name="status_bar_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+        <string name="status_bar_date_string_edittext_summary">Enter string</string>
+        <string name="clock_category">Clock </string>
+        <string name="clock_custom">Clock Customizations</string>
+        <string name="clock_font_style_title">Font</string>
+        <string name="clock_font_normal">Normal</string>
+        <string name="clock_font_italic">Italic</string>
+        <string name="clock_font_bold">Bold</string>
+        <string name="clock_font_bold_italic">Bold Italic</string>
+        <string name="clock_font_light">Light</string>
+        <string name="clock_font_light_italic">Light Italic</string>
+        <string name="clock_font_thin">Thin</string>
+        <string name="clock_font_thin_italic">Thin Italic</string>
+        <string name="clock_font_condensed">Condensed</string>
+        <string name="clock_font_condensed_italic">Condensed Italic</string>
+        <string name="clock_font_condensed_light">Condensed Light</string>
+        <string name="clock_font_condensed_light_italic">Condensed Light Italic</string>
+        <string name="clock_font_condensed_bold">Condensed Bold</string>
+        <string name="clock_font_condensed_bold_italic">Condensed Bold Italic</string>
+        <string name="clock_font_medium">Medium</string>
+        <string name="clock_font_medium_italic">Medium Italic</string>
+        <string name="clock_font_black">Black</string>
+        <string name="clock_font_black_italic">Black Italic</string>
+        <string name="clock_font_dancingscript">DancingScript</string>
+        <string name="clock_font_dancingscript_bold">DancingScript Bold</string>
+        <string name="clock_font_comingsoon">ComingSoon</string>
+        <string name="clock_font_notoserif">NotoSerif Normal</string>
+        <string name="clock_font_notoserif_italic">NotoSerif Italic</string>
+        <string name="clock_font_notoserif_bold">NotoSerif Bold</string>
+        <string name="clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+        <string name="clock_font_size_title">Font size</string>
+
+        <!-- General -->
+    <string name="ok">Okay</string>
+    <string name="reset">Reset</string>
+    <string name="default_string">Default</string>
+    <string name="add">Add</string>
+    <string name="enabled">Enabled</string>
+    <string name="choose_app">Choose application</string>
+    <string name="help">Help</string>
+    <string name="reset_message">Reset all entries to default?</string>
+    <string name="attention">Attention</string>
+    <string name="reset">Reset</string>
+    <string name="restart_systemui">Restart UI</string>
+
+       <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string> 
+        
+</resources>

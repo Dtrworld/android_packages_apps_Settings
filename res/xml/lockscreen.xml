@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/lockscreen_category"
+    android:layout="@layout/preference_tab"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="double_tap_sleep_anywhere"
+        android:title="@string/double_tap_sleep_anywhere_title"
+        android:summary="@string/double_tap_sleep_anywhere_summary"
+        android:defaultValue="true" />
+</PreferenceScreen>

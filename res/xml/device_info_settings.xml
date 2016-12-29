@@ -19,31 +19,15 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
-        <!-- System update settings - launches activity -->
-        <PreferenceScreen android:key="system_update_settings"
-                android:title="@string/system_update_settings_list_item_title"
-                android:summary="@string/system_update_settings_list_item_summary">
-            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
-        </PreferenceScreen>
+        <!-- NucleaRom Logotype -->
+        <PreferenceScreen android:key="nuclear_logo"
+                          android:fragment="com.android.settings.nucleartweaks.about"
+                          android:layout="@layout/nuclear_logo_row" />
 
-
-        <PreferenceScreen android:key="additional_system_update_settings"
-                          android:title="@string/additional_system_update_settings_list_item_title">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="@string/additional_system_update"
-                    android:targetClass="@string/additional_system_update_menu" />
-        </PreferenceScreen>
-
-        <!-- CyanogenMod Updates -->
-        <cyanogenmod.preference.SelfRemovingPreference android:key="cm_updates"
-                android:title="@string/cmupdate_settings_title"
-                android:summary="@string/system_update_settings_list_item_summary"
-                cm:requiresOwner="true"
-                cm:requiresPackage="com.cyanogenmod.updater">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.cyanogenmod.updater"
-                    android:targetClass="com.cyanogenmod.updater.UpdatesSettings" />
-        </cyanogenmod.preference.SelfRemovingPreference>
+        <!-- Changelog -->
+        <PreferenceScreen android:key="changelog"
+                android:title="@string/changelog_crdroid_title"
+                android:fragment="com.android.settings.nuclear.Changelog" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
@@ -81,10 +65,6 @@
         <PreferenceScreen android:key="device_feedback"
                 android:title="@string/device_feedback">
         </PreferenceScreen>
-
-        <!-- Contributors cloud -->
-        <org.cyanogenmod.internal.cmparts.CMPartsPreference
-                android:key="contributors" />
 
         <!-- Device name -->
         <Preference android:key="device_name"

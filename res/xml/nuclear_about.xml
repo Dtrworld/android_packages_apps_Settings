@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- About TeamNuclear, sources...forums...etc...-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:title="@string/about_ns_settings_title" >
+
+    <!-- Share NS ROM -->
+         <Preference
+             android:key="share"
+             android:title="@string/share_ns"
+             android:layout="@layout/preference_nuclearextra_teamabout"/>
+                
+    <PreferenceCategory
+        android:key="links"
+        android:title="@string/ns"> 
+        <!-- sources github -->
+        <Preference
+            android:key="ns_source"
+            android:title="@string/ns_source_title"
+            android:summary="@string/ns_source_summary" />
+        <!-- Pagina para donaciones --> 
+        <Preference
+            android:key="ns_donate"
+            android:title="@string/ns_donate"
+            android:summary="@string/ns_donate_summary" />
+                            
+     </PreferenceCategory>
+
+     <PreferenceCategory
+        android:key="sourcebase"
+        android:title="@string/sourcebase_title">
+                
+        <Preference
+            android:key="ns_sourcebase"
+            android:title="@string/ns_sourcebase"
+            android:summary="@string/ns_sourcebase_sumary" />
+
+    </PreferenceCategory>
+        <!-- Equipo Nuclear -->     
+    <PreferenceScreen
+        android:key="teamnuclear"
+        android:title="@string/team_nuclear" 
+        android:fragment="com.android.settings.nucleartweaks.team"
+        android:layout="@layout/preference_nuclearextra_teamabout">
+    </PreferenceScreen>
+
+        <PreferenceCategory
+            android:key="devs"
+            android:title="@string/devs_title">
+  
+            <PreferenceScreen android:key="lozo"
+            android:title="@string/lozo" />
+            <PreferenceScreen android:key="moludo"
+            android:title="@string/moludo" />         
+            <PreferenceScreen android:key="acuicultor"
+            android:title="@string/acuicultor" />
+            <PreferenceScreen android:key="ordenkrieger"
+            android:title="@string/ordenkrieger" />
+			
+        </PreferenceCategory>
+          
+</PreferenceScreen>

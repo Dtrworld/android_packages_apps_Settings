@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- About TeamNuclear, sources...forums...etc...-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:title="@string/about_ns_settings_title" >
+
+          <!-- NucleaRom Logotype -->
+
+    <PreferenceCategory android:key="nuclear_team"
+        android:layout="@layout/nuclear_team_row" />
+
+</PreferenceScreen>

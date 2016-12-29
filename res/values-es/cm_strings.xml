@@ -37,8 +37,8 @@
   <string name="root_access_adb">Solo ADB</string>
   <string name="root_access_all">Aplicaciones y ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">Versión de LineageOS</string>
+  <!-- About phone screen, CyanogenMod version -->
+  <string name="mod_version">Versión de NucleaRom</string>
   <string name="mod_version_default">Desconocida</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Modelo del dispositivo</string>
@@ -317,7 +317,4 @@
   <string name="hotstpot_inactivity_timeout_1_minute">1 minuto</string>
   <string name="hotstpot_inactivity_timeout_5_minutes">5 minutos</string>
   <string name="hotstpot_inactivity_timeout_10_minutes">10 minutos</string>
-  <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Encender al conectar el cargador</string>
-  <!-- Heads-up -->
 </resources>

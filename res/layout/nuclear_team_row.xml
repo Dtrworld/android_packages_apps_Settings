@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:weightSum="1">
+
+        <ImageView
+            android:layout_width="226dp"
+            android:layout_height="355dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_team"
+            android:id="@+id/imageView"
+            android:layout_weight="0.30" />
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Nuclear custom settings main -->
+    <string name="nuclear_activity_title">Настройки Nuclear</string>
+    <string name="nuclear_title">Твики Nuclear</string>
+    <string name="nuclear_settings_title">Категории</string>
+
+    <!-- Tabs -->
+    <string name="generalui_category">Основные настройки</string>
+    <string name="statusbar_category">Строка состояния</string>
+    <string name="navigation_category">Кнопки</string>
+    <string name="multitasking_category">Последние приложения</string>
+    <string name="system_category">Система</string>
+    <string name="lockscreen_category">Экран блокировки</string>
+
+    <!-- Tab GeneralUI -->
+    <string name="appearance_settings_title">Внешний вид</string>
+    <string name="ledsnot_settings_title">Настройка светодиода</string>
+    <string name="gesture_settings_title">Настройки жестов</string>
+    <!-- Dialog -->
+    <string name="nucleartweaks_dialog_title">Помогите нам, Поможем вам!!</string>
+    <string name="nucleartweaks_dialog_message">К сожалению, мы не волшебники!\n\nТак что если вы нашли ошибку в каком-либо из этих параметров, обратитесь к разработчику Nuclear Team ((HTCMania Or XDAdeveloper) со следующим.\n\n1. Logcat or Last_Kmsg\n2. Kernel and Mods used\n3. Полезная информация\n\nЕсли вы не в состоянии сообщить что-то, не следует ожидать вещи, которые будут исправлены. Помните, что мы не волшебники, так что мы можем ошибаться.</string>
+    <string name="nucleartweaks_dialog_toast">ЧИТАТЬ ВСЕ ЭТО!</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Сетевой трафик</string>
+    <string name="show_network_traffic_state">Отображение сетевого трафика</string>
+    <string name="network_traffic_summary">Включить различные варианты сетевого трафика в строке состояния</string>
+    <string name="show_network_traffic_unit">Единицы измерения</string>
+    <string name="show_network_traffic_frequency">Интервал обновления</string>
+    <string name="show_network_traffic_disable">Отключен</string>
+    <string name="show_network_traffic_up">Исходящий</string>
+    <string name="show_network_traffic_down">Входящий</string>
+    <string name="show_network_traffic_all">Исходящий и входящий</string>
+    <string name="show_network_traffic_bit">Бит в секунду</string>
+    <string name="show_network_traffic_byte">Байт в секунду</string>
+    <string name="show_network_traffic_500">500 мс</string>
+    <string name="show_network_traffic_1000">1000 мс</string>
+    <string name="show_network_traffic_1500">1500 мс</string>
+    <string name="show_network_traffic_2000">2000 мс</string>
+    <string name="network_traffic_autohide">Автоматически скрывать</string>
+    <string name="network_traffic_autohide_summary">Скрывать отображение трафика, когда нет сетевой активности</string>
+    <string name="network_traffic_autohide_threshold">Порог неактивности</string>
+    <string name="network_traffic_color_style">Цвет</string>
+    <string name="network_traffic_color_reset">Сбросить цвет</string>
+    <string name="network_traffic_color_reset_message">Сбросить цвет в значение по умолчанию?</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Изменить цвет</string>
+    <string name="press_color_to_apply">Нажать на цвет, что бы принять</string>
+    <string name="arrow_right">в†’</string>
+    <string name="arrow_down">в†“</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Выбрать</string>
+    <string name="color_default">По умолчанию</string>
+
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">Жесты</string>
+    <string name="gesture_anywhere_enabled_title">Жесты</string>
+    <string name="gesture_anywhere_enabled_summary">Включить поддержку управления жестами</string>
+    <string name="gesture_anywhere_position_title">Расположение</string>
+    <string name="gesture_anywhere_position_left">Левый край</string>
+    <string name="gesture_anywhere_position_right">Правый край</string>
+    <string name="gesture_anywhere_gestures_title">Жесты</string>
+    <string name="gesture_anywhere_gestures_summary">Добавление, удаление и изменение жестов</string>
+    <!-- Label, button used to add a gesture -->
+    <string name="ga_button_add">Добавить жесты</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="ga_button_reload">Перезапуск</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="ga_button_discard">Отмена</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="ga_button_done">Готово</string>
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="ga_prompt_gesture_name">Имя</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="ga_error_missing_name">Вы должни ввести имя</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="ga_save_success">Жест сохранен в %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_cancel_action">Отмена</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="ga_gestures_loading">Загрузка жестов...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="ga_gestures_empty">Нет жестов</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="ga_gestures_activity">Жесты</string>
+    <!-- Noun, menu item used to edit a gesture -->
+    <string name="ga_gestures_edit">Изменить</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="ga_gestures_delete">Удалить</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="ga_gestures_delete_success">Жест удален</string>
+    <!-- Title of dialog box -->
+    <string name="ga_gestures_rename_title">Переименовать жест</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="ga_gestures_rename_label">Имя жеста</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <string name="ga_gestures_error_loading">Не могу загрузить %s. Убедитесь, что хранилище доступно.</string>
+    <string name="trigger_category">Область запуска</string>
+    <string name="trigger_width_title">Ширина области</string>
+    <string name="trigger_width_summary">Отрегулируйте ширину области</string>
+    <string name="trigger_top_title">Позиция области</string>
+    <string name="trigger_top_summary">Отрегулируйте вертикальное положение области</string>
+    <string name="trigger_bottom_title">Высота области</string>
+    <string name="trigger_bottom_summary">Отрегулируйте высоту области</string>
+    <string name="picker_activities">Активность</string>
+    <string name="select_custom_app_title">Выберите пользовательские приложение</string>
+    <string name="select_custom_activity_title">Выберите пользовательскую активность</string>
+    <string name="profile_applist_title">Приложения</string>
+    <string name="rr_gesture_title">Жесты</string>
+
+    <!-- About NucleaRomReborn -->
+    <string name="about_ns_settings_title">NucleaRom</string>
+    <string name="share_ns">Все о NucleaRom</string>
+    <string name="ns_donate">Это обеспечивает поддержку NuclearTeam</string>
+    <string name="ns_donate_summary">Предоставить поддуржку NuclearTeam</string>
+    <string name="github_tn">https://github.com/OneRomOne</string>
+    <string name="ns">Ссылки</string>
+    <string name="ns_kernel_title">Веб-сайт ядра</string>
+    <string name="ns_kernel_summary">Более подробная информация о ядре</string>
+    <string name="ns_forum_title">Форум NucleaRom</string>
+    <string name="ns_forum_summary">Проверить последнии обновления</string>
+    <string name="ns_source_title">Github</string>
+    <string name="ns_source_summary">Исходный код NucleaRom</string>
+    <string name="sourcebase_title">Источник кода</string>
+    <string name="title_about">О NucleaRom</string>
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_title_summary">Проверить последние изменения</string>
+    <string name="team_nuclear">Команда NuclearTeam</string>
+    <string name="moludo">Moludo</string>
+    <string name="lozo">Lozo</string>
+    <string name="acuicultor">Acuicultor</string>
+    <string name="ordenkrieger">OrdenKrieger</string>
+    <string name="evuz">Evuz</string>
+    <string name="victoria">Victoria</string>
+    <string name="arma">Armallones</string>
+    <string name="sonia">UnaiMunariz</string>
+    <string name="chris">pSyCh¤_O_O</string>
+    <string name="santos">Gusy_80</string>
+    <string name="alfo">alfo!!!</string>
+    <string name="dtr">DTR</string>
+    <string name="devs_title">Разработчики</string>
+    <string name="maintainer_title">Сопровождающие</string>
+    <string name="testers_title">Тестеры</string>
+    <string name="ns_sourcebase">CyanogenMod</string>
+    <string name="ns_sourcebase_sumary">https://github.com/CyanogenMod</string>
+
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Индикатор суперпользователя</string>
+    <string name="su_indicator_summary_on">Индикатор Суперпользователя  виден , когда сессия активна</string>
+    <string name="su_indicator_summary_off">Переключите чтобы показать индикатор суперпользователя , когда сессия активна</string>
+
+    <!-- Changelog -->
+    <string name="changelog_crdroid_title">Список изменений</string>
+    <string name="changelog_crdroid_error">Невозможно загрузить список изменений</string>
+
+    <string name="double_tap_sleep_anywhere_title">DT2S на экране блокировки</string>
+    <string name="double_tap_sleep_anywhere_summary">Дважды нажмите на верхней или нижней области быстрого вызова для перехода в режим сна</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Жест тремя пальцами</string>
+    <string name="three_finger_gesture_summary">Проведите по экрану тремя пальцами для создания скриншота</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показывать информацию о CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Экранное наложение отображает информацию о CPU</string>
+   
+    <!--Clock & Date Category-->
+    <string name="clock_settings_title">Настройки часов</string>
+    <string name="status_bar_clock_category">Часы</string>
+    <string name="status_bar_date_title">Дата</string>
+    <string name="status_bar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_hidden">Скрыто</string>
+    <string name="clock_date_position">Расположение даты</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от часов</string>
+    <string name="status_bar_am_pm_title">AM/PM стиль</string>
+    <string name="status_bar_am_pm_info">24-часовой формат часов включен</string>
+    <string name="status_bar_am_pm_normal">Нормальный</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Скрыто</string>
+    <string name="status_bar_date_none">Скрыто (По умолчанию)</string>
+    <string name="status_bar_date_small">Маленький</string>
+    <string name="status_bar_date_normal">Нормальный</string>
+    <string name="status_bar_date_format_title">Формат даты</string>
+    <string name="status_bar_date_style">Стиль даты</string>
+    <string name="status_bar_date_style_normal">Нормальный</string>
+    <string name="status_bar_date_style_lowercase">Строчные</string>
+    <string name="status_bar_date_style_uppercase">Заглавные</string>
+    <string name="status_bar_date_format_custom">Настраиваемый формат java</string>
+    <string name="status_bar_date_string_edittext_title">Должно быть в формате даты напр. MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Ввод строки</string>
+    <string name="clock_category">Часы</string>
+    <string name="clock_custom">Настройки часов</string>
+    <string name="clock_font_style_title">Шрифт</string>
+    <string name="clock_font_normal">Нормальный</string>
+    <string name="clock_font_italic">Курсивный</string>
+    <string name="clock_font_bold">Полужирный</string>
+    <string name="clock_font_bold_italic">Полужирный курсивный</string>
+    <string name="clock_font_light">Легкий</string>
+    <string name="clock_font_light_italic">Легкий курсивный</string>
+    <string name="clock_font_thin">Тонкий</string>
+    <string name="clock_font_thin_italic">Тонкий курсивный</string>
+    <string name="clock_font_condensed">Condensed</string>
+    <string name="clock_font_condensed_italic">Condensed курсивный</string>
+    <string name="clock_font_condensed_light">Condensed легкий</string>
+    <string name="clock_font_condensed_light_italic">Condensed легкий курсивный</string>
+    <string name="clock_font_condensed_bold">Condensed полужирный</string>
+    <string name="clock_font_condensed_bold_italic">Condensed полужирный курсивный</string>
+    <string name="clock_font_medium">Средний</string>
+    <string name="clock_font_medium_italic">Средний курсивный</string>
+    <string name="clock_font_black">Черный</string>
+    <string name="clock_font_black_italic">Черный курсивный</string>
+    <string name="clock_font_dancingscript">DancingScript</string>
+    <string name="clock_font_dancingscript_bold">DancingScript полужирный</string>
+    <string name="clock_font_comingsoon">ComingSoon</string>
+    <string name="clock_font_notoserif">NotoSerif Нормальный</string>
+    <string name="clock_font_notoserif_italic">NotoSerif курсивный</string>
+    <string name="clock_font_notoserif_bold">NotoSerif полужирный</string>
+    <string name="clock_font_notoserif_bold_italic">NotoSerif полужирный курсивный</string>
+    <string name="clock_font_size_title">Размер шрифта</string>
+
+    <!-- General -->
+    <string name="ok">Хорошо</string>
+    <string name="reset">Сброс</string>
+    <string name="default_string">По умолчанию</string>
+    <string name="add">Добавить</string>
+    <string name="enabled">Включено</string>
+    <string name="choose_app">Выбрать приложение</string>
+    <string name="help">Помощь</string>
+    <string name="reset_message">Сбросить все значения по умолчанию?</string>
+    <string name="attention">Внимание</string>
+    <string name="reset">Перезагрузка</string>
+    <string name="restart_systemui">Перезапуск UI</string>
+    
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Цвет предупреждения</string>
+    <string name="battery_saver_color_summary">Включить окрашивание панели навигации в оранжевый цвет при активации режима энергосбережения</string>
+
+</resources>

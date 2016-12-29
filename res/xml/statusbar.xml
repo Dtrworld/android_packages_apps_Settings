@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/statusbar_category"
+    android:layout="@layout/preference_tab"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceScreen
+        android:key="network_traffic_state"
+        android:fragment="com.android.settings.nuclear.NetworkTraffic"
+        android:summary="@string/network_traffic_summary"
+        android:title="@string/network_traffic_title" />
+
+    <com.android.settings.nuclear.Preferences.SystemSettingSwitchPreference
+            android:key="battery_save_mode_color"
+            android:title="@string/battery_saver_color_title"
+            android:summary="@string/battery_saver_color_summary"
+            android:defaultValue="true" />
+
+    <PreferenceCategory
+            android:key="clock"
+            android:title="@string/clock_category" >
+
+        <PreferenceScreen
+            android:key="clock"
+            android:title="@string/clock_custom"
+    		android:fragment="com.android.settings.nuclear.ClockSettings" />
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

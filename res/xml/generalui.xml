@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/generalui_category"
+    android:layout="@layout/preference_tab"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- gesture_anywhere -->
+    <PreferenceScreen
+        android:key="gesture_anywhere"
+        android:fragment="com.android.settings.nucleartweaks.gestureanywhere.GestureAnywhereSettings"
+        android:title="@string/gesture_anywhere_title">
+        </PreferenceScreen>    
+
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="show_su_indicator"
+        android:title="@string/su_indicator"
+        android:summaryOn="@string/su_indicator_summary_on"
+        android:summaryOff="@string/su_indicator_summary_off"
+        android:defaultValue="true" />
+
+             <!-- Three-fingers-swipe to screenshot -->
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"
+        android:title="@string/three_finger_gesture"
+        android:summary="@string/three_finger_gesture_summary"
+        android:defaultValue="false" />
+
+</PreferenceScreen>
