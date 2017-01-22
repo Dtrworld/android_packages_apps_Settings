@@ -17,13 +17,17 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.dashboard.DashboardSummary;
 import com.android.settings.dashboard.SummaryLoader;
 
+import com.android.settings.nuclear.Preferences.CustomSeekBarPreference;
+
 public class GeneralUI extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "GeneralUI";
 
-    private static final String KEY_DASHBOARD_COLUMNS = "dashboard_columns";
+    private static final String KEY_DASHBOARD_PORTRAIT_COLUMNS = "dashboard_portrait_columns";
+    private static final String KEY_DASHBOARD_LANDSCAPE_COLUMNS = "dashboard_landscape_columns";
 
-    private ListPreference mDashboardColumns;
+    private CustomSeekBarPreference mDashboardPortraitColumns;
+    private CustomSeekBarPreference mDashboardLandscapeColumns;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,11 +35,17 @@ public class GeneralUI extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.generalui);      
 
-        mDashboardColumns = (ListPreference) findPreference(KEY_DASHBOARD_COLUMNS);
-        mDashboardColumns.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.DASHBOARD_COLUMNS, DashboardSummary.mNumColumns)));
-        mDashboardColumns.setSummary(mDashboardColumns.getEntry());
-        mDashboardColumns.setOnPreferenceChangeListener(this);
+        mDashboardPortraitColumns = (CustomSeekBarPreference) findPreference(KEY_DASHBOARD_PORTRAIT_COLUMNS);
+        int columnsPortrait = Settings.System.getInt(resolver,
+                Settings.System.DASHBOARD_PORTRAIT_COLUMNS, DashboardSummary.mNumColumns);
+        mDashboardPortraitColumns.setValue(columnsPortrait / 1);
+        mDashboardPortraitColumns.setOnPreferenceChangeListener(this);
+
+        mDashboardLandscapeColumns = (CustomSeekBarPreference) findPreference(KEY_DASHBOARD_LANDSCAPE_COLUMNS);
+        int columnsLandscape = Settings.System.getInt(resolver,
+                Settings.System.DASHBOARD_LANDSCAPE_COLUMNS, 2);
+        mDashboardLandscapeColumns.setValue(columnsLandscape / 1);
+        mDashboardLandscapeColumns.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -55,12 +65,17 @@ public class GeneralUI extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         final String key = preference.getKey();
-        
-        if (preference == mDashboardColumns) {
-            Settings.System.putInt(getContentResolver(), Settings.System.DASHBOARD_COLUMNS,
-                    Integer.valueOf((String) objValue));
-            mDashboardColumns.setValue(String.valueOf(objValue));
-            mDashboardColumns.setSummary(mDashboardColumns.getEntry());
+
+        if (preference == mDashboardPortraitColumns) {
+            int columnsPortrait = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.DASHBOARD_PORTRAIT_COLUMNS, columnsPortrait * 1);
+            return true;
+        }
+        if (preference == mDashboardLandscapeColumns) {
+            int columnsLandscape = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.DASHBOARD_LANDSCAPE_COLUMNS, columnsLandscape * 1);
             return true;
         }
         return true;
