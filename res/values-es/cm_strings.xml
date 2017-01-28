@@ -337,5 +337,4 @@
   <!-- Volume link notification -->
   <string name="volume_link_notification_title">Enlazar volumen del tono de llamada y notificaciones</string>
   <!-- Launch music player when headset is connected -->
->>>>>>> 83290f29d751f2b45d2aed9f03910c7d4eecadb9
 </resources>
