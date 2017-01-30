@@ -1,15 +1,18 @@
 package com.android.settings.nuclear.tabs;
 
+import android.app.Activity;
 import android.app.ActivityManager;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.preference.Preference;
-import android.preference.PreferenceScreen;
-import android.preference.PreferenceCategory;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.SwitchPreference;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceCategory;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -32,6 +35,8 @@ public class GeneralUI extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        final Activity activity = getActivity();
+        final ContentResolver resolver = activity.getContentResolver();
 
         addPreferencesFromResource(R.xml.generalui);      
 
