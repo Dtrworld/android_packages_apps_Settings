@@ -246,4 +246,28 @@
     <string name="battery_saver_color_title">Цвет предупреждения</string>
     <string name="battery_saver_color_summary">Включить окрашивание панели навигации в оранжевый цвет при активации режима энергосбережения</string>
 
+    <!-- Dashboard options -->
+    <string name="dashboard_category">Опции панели настроек</string>
+    <string name="dashboard_suggestions_title">Подсказки</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки панели настроек включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки панели настроек выключены</string>
+    <string name="remove_tile_summaries_title">Сводки</string>
+    <string name="remove_tile_summaries_summary_enabled">Сводки панели настроек включены</string>
+    <string name="remove_tile_summaries_summary_disabled">Сводки панели настроек выключены</string>
+    <string name="dashboard_conditions_title">Условия</string>
+    <string name="summary_dashboard_conditions_enabled">Условия панели настроек включены</string>
+    <string name="summary_dashboard_conditions_disabled">Условия панели настроек выключены</string>
+    <string name="dashboard_columns_portrait_title">Столбцы (Портретный режим)</string>
+    <string name="dashboard_columns_landscape_title">Столбцы (Ландшафтный режим)</string>
+
+        <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Столбцы панели настроек</string>
+    <string name="dashboard_columns_summary">Изменение количества столбцов, отображаемых в панели настроек</string>
+    <string name="dashboard_columns_dialog_title">Выбрать количество столбцов панели настроек</string>
+    <string name="dashboard_columns_default">Один (два в ландшафтном режиме)</string>
+    <string name="dashboard_columns_two">Два (три в ландшафтном режиме)</string>
+    <string name="dashboard_columns_three">Три (четыре в ландшафтном режиме)</string>
+    <string name="dashboard_summary_double_lines_title">Строки сводки панели настроек</string>
+    <string name="dashboard_summary_double_lines_summary_on">Показывать сводки панели настроек в несколько строк</string>
+    <string name="dashboard_summary_double_lines_summary_off">Показывать сводки панели настроек в 1 строку</string>
 </resources>
