@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
--<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 <!-- Nuclear custom settings main -->
 
@@ -573,4 +573,4 @@
 
 <string name="omniswitch_settings_title">OmniSwitch</string>
 
-</resources>v
+</resources>
