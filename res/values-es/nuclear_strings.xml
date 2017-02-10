@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- Nuclear custom settings main -->
+
+
+<string name="nuclear_activity_title">Ajustes Nuclear</string>
+
+<string name="nuclear_title">Zona Nuclear</string>
+
+<string name="nuclear_settings_title">Categorías</string>
+
+<!-- Tabs -->
+
+
+<string name="generalui_category">Interfaz</string>
+
+<string name="statusbar_category">Status Bar</string>
+
+<string name="navigation_category">Navigation Bar</string>
+
+<string name="multitasking_category">Recientes</string>
+
+<string name="system_category">Sistema</string>
+
+<string name="lockscreen_category">Pantalla de Bloqueo</string>
+
+<!-- Tab GeneralUI -->
+
+
+<string name="appearance_settings_title">Apariencia</string>
+
+<string name="ledsnot_settings_title">Led</string>
+
+<string name="gesture_settings_title">Gestos</string>
+
+<!-- Dialog -->
+
+
+<string name="nucleartweaks_dialog_title">Ayudanos, ayúdate!!</string>
+
+<string name="nucleartweaks_dialog_message">Desafortunadamente no somos magos!\n\nAsí que si encontráis un bug o error con alguno de los ajustes, por favor contactar con los desarrolladores de Nuclear Team (WEB o XDAdeveloper) aportando:\n\n1. Logcat or Last_Kmsg\n2. Kernel y Mods usados\n3. Información útil\n\nSi no nos reportáis los fallos no esperéis que se puedan arreglar. Recordar, no somos magos, así que hay cosas que se nos escapan.</string>
+
+<string name="nucleartweaks_dialog_toast">LEERLO TODO!</string>
+
+<!-- Network traffic -->
+
+
+<string name="network_traffic_title">Tráfico de datos</string>
+
+<string name="show_network_traffic_state">Monitor de tráfico de la status bar</string>
+
+<string name="network_traffic_summary">Habilitar opciones de tráfico de datos en la status bar</string>
+
+<string name="show_network_traffic_unit">Monitor</string>
+
+<string name="show_network_traffic_frequency">Intervalo de actualización</string>
+
+<string name="show_network_traffic_disable">Desconectado</string>
+
+<string name="show_network_traffic_up">Saliente</string>
+
+<string name="show_network_traffic_down">Entrante</string>
+
+<string name="show_network_traffic_all">Saliente y entrante</string>
+
+<string name="show_network_traffic_bit">Bits por segundo</string>
+
+<string name="show_network_traffic_byte">Bytes por segundo</string>
+
+<string name="show_network_traffic_500">500 ms</string>
+
+<string name="show_network_traffic_1000">1000 ms</string>
+
+<string name="show_network_traffic_1500">1500 ms</string>
+
+<string name="show_network_traffic_2000">2000 ms</string>
+
+<string name="network_traffic_autohide">Auto esconder</string>
+
+<string name="network_traffic_autohide_summary">Esconder el monitor de tráfico cuando no hay actividad</string>
+
+<string name="network_traffic_autohide_threshold">Límite de inactividad</string>
+
+<string name="network_traffic_color_style">Estilos de color</string>
+
+<string name="network_traffic_color_reset">Restablecer color</string>
+
+<string name="network_traffic_color_reset_message">Restablecer el color predeterminado del monitor de tráfico?</string>
+
+<!-- Color Picker -->
+
+
+<string name="dialog_color_picker">Selector de color</string>
+
+<string name="press_color_to_apply">Selecciona debajo el color a aplicar</string>
+
+<string name="arrow_right">→</string>
+
+<string name="arrow_down">↓</string>
+
+<string name="hex">Hex:</string>
+
+<string name="hex_hint">#ff000000</string>
+
+<string name="set">Fijar</string>
+
+<string name="color_default">Predeterminado</string>
+
+<!-- Gesture Anywhere -->
+
+
+<string name="gesture_anywhere_title">Gestos libres</string>
+
+<string name="gesture_anywhere_enabled_title">Gestos libres</string>
+
+<string name="gesture_anywhere_enabled_summary">Habilitar gestos libres</string>
+
+<string name="gesture_anywhere_position_title">Ubicación</string>
+
+<string name="gesture_anywhere_position_left">Borde izquierdo</string>
+
+<string name="gesture_anywhere_position_right">Borde derecho</string>
+
+<string name="gesture_anywhere_gestures_title">Gestos</string>
+
+<string name="gesture_anywhere_gestures_summary">Añadir, eliminar y modificar gestos</string>
+
+<!-- Label, button used to add a gesture -->
+
+
+<string name="ga_button_add">Añadir gesto</string>
+
+<!-- Label, button used to reload all gestures -->
+
+
+<string name="ga_button_reload">Recargar</string>
+
+<!-- Label, button used to cancel the operation of adding a gesture -->
+
+
+<string name="ga_button_discard">Descartar</string>
+
+<!-- Label, button used to save a gesture newly created -->
+
+
+<string name="ga_button_done">Hecho</string>
+
+<!-- Label, prompt asking the user to enter the name of the gesture -->
+
+
+<string name="ga_prompt_gesture_name">Nombre</string>
+
+<!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+
+
+<string name="ga_error_missing_name">Debe introducir un nombre</string>
+
+<!-- success message, tells the user where the gesture was saved -->
+
+
+<string name="ga_save_success">Gesto guardado en un %</string>
+
+<!-- Buttons in Rename gesture dialog box -->
+
+
+<string name="ga_rename_action">OK</string>
+
+<!-- Buttons in Rename gesture dialog box -->
+
+
+<string name="ga_cancel_action">Cancelar</string>
+
+<!-- Message displayed when the user opens the gestures settings screen -->
+
+
+<string name="ga_gestures_loading">Guardando gestos...</string>
+
+<!-- Message displayed when the user has no gestures -->
+
+
+<string name="ga_gestures_empty">Sin gestos</string>
+
+<!-- Title of the screen used to view/manage gestures -->
+
+
+<string name="ga_gestures_activity">Gestos</string>
+
+<!-- Noun, menu item used to edit a gesture -->
+
+
+<string name="ga_gestures_edit">Editar</string>
+
+<!-- Noun, menu item used to remove a gesture -->
+
+
+<string name="ga_gestures_delete">Borrar</string>
+
+<!-- Message displayed when a gesture is successfully deleted -->
+
+
+<string name="ga_gestures_delete_success">Gesto borrado</string>
+
+<!-- Title of dialog box -->
+
+
+<string name="ga_gestures_rename_title">Renombrar gesto</string>
+
+<!-- Label of gesture name field in Rename gesture dialog box -->
+
+
+<string name="ga_gestures_rename_label">Nombre del gesto</string>
+
+<!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures. CHAR LIMIT=80 -->
+
+
+<string name="ga_gestures_error_loading">No se pudo cargar %. Asegurese de tener disponible espacio del almacenaje.</string>
+
+<string name="trigger_category">Ajustes del lanzador de gestos libres</string>
+
+<string name="trigger_width_title">Ancho del lanzador</string>
+
+<string name="trigger_width_summary">Ajustar el ancho del lanzador</string>
+
+<string name="trigger_top_title">Posición o altura vertical del lanzador</string>
+
+<string name="trigger_top_summary">Ajustar la posición vertical del lanzador</string>
+
+<string name="trigger_bottom_title">Longitud del lanzador</string>
+
+<string name="trigger_bottom_summary">Ajustar la longitud del lanzador</string>
+
+<string name="picker_activities">Actividades</string>
+
+<string name="select_custom_app_title">Seleccionar app personalizada</string>
+
+<string name="select_custom_activity_title">Seleccionar actividad personalizada</string>
+
+<string name="profile_applist_title">Aplicaciones</string>
+
+<string name="rr_gesture_title">Gestos</string>
+
+<!-- About NucleaRomReborn -->
+
+
+<string name="about_ns_settings_title">NucleaRom</string>
+
+<string name="share_ns">Todo sobre NucleaRom</string>
+
+<string name="ns_donate">Aporta una donación al NuclearTeam</string>
+
+<string name="ns_donate_summary">Dando soporte a NuclearTeam</string>
+
+<string name="github_tn">https://github.com/OneRomOne</string>
+
+<string name="ns">Links</string>
+
+<string name="ns_kernel_title">Kernel Website</string>
+
+<string name="ns_kernel_summary">Mas informacion acerca del kernel</string>
+
+<string name="ns_forum_title">NucleaRom ForumSite</string>
+
+<string name="ns_forum_summary">Consulta las ultimas descargas</string>
+
+<string name="ns_source_title">Github</string>
+
+<string name="ns_source_summary">NucleaRom Sources</string>
+
+<string name="sourcebase_title">Source Base</string>
+
+<string name="title_about">Acerca de NucleaRom</string>
+
+<string name="changelog_title">Changelog</string>
+
+<string name="changelog_title_summary">Consulta los changelogs</string>
+
+<string name="team_nuclear">Miembros NuclearTeam</string>
+
+<string name="moludo">Moludo</string>
+
+<string name="lozo">Lozo</string>
+
+<string name="acuicultor">Acuicultor</string>
+
+<string name="ordenkrieger">OrdenKrieger</string>
+
+<string name="evuz">Evuz</string>
+
+<string name="victoria">Victoria</string>
+
+<string name="arma">Armallones</string>
+
+<string name="sonia">UnaiMunariz</string>
+
+<string name="chris">pSyCh¤_O_O</string>
+
+<string name="santos">Gusy_80</string>
+
+<string name="alfo">alfo!!!</string>
+
+<string name="dtr">DTR</string>
+
+<string name="devs_title">Devs</string>
+
+<string name="maintainer_title">Maintainer thread</string>
+
+<string name="testers_title">Testers</string>
+
+<string name="ns_sourcebase">CyanogenMod</string>
+
+<string name="ns_sourcebase_sumary">https://github.com/CyanogenMod</string>
+
+<!-- Superuser indicator on status bar -->
+
+
+<string name="su_indicator">Indicador de superusuario</string>
+
+<string name="su_indicator_summary_on">Indicador de superusuario visible cuando una sesión esté activa</string>
+
+<string name="su_indicator_summary_off">Mostrar el indicador de superusuario cuando una sesión esté activa</string>
+
+<!-- Changelog -->
+
+
+<string name="changelog_crdroid_title">Changelog</string>
+
+<string name="changelog_crdroid_error">Imposible leer el changelog</string>
+
+<string name="double_tap_sleep_anywhere_title">Doble toque para dormir la pantalla de bloqueo</string>
+
+<string name="double_tap_sleep_anywhere_summary">Doble toque en el tercio superior o en la parte inferior para dormir</string>
+
+<!-- Three-fingers-swipe to screenshot -->
+
+
+<string name="three_finger_gesture">Gestos con tres dedos</string>
+
+<string name="three_finger_gesture_summary">Deslizar tres dedos para capturar pantalla</string>
+
+<!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+
+
+<string name="show_cpu_info">Mostra info de la CPU</string>
+
+<!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+
+
+<string name="show_cpu_info_summary">Superponer pantalla para mostrar info actual de la CPU</string>
+
+<!--Clock & Date Category-->
+
+
+<string name="clock_settings_title">Ajustes del reloj</string>
+
+<string name="status_bar_clock_category">Reloj</string>
+
+<string name="status_bar_date_title">Fecha</string>
+
+<string name="status_bar_clock_style_title">Estilo del reloj</string>
+
+<string name="status_bar_clock_style_right">Derecha</string>
+
+<string name="status_bar_clock_style_left">Izquierda</string>
+
+<string name="status_bar_clock_style_center">Centrar</string>
+
+<string name="status_bar_clock_style_hidden">Ocultar</string>
+
+<string name="status_bar_clock_style_title">Estilo del reloj</string>
+
+<string name="status_bar_clock_style_right">Derecha</string>
+
+<string name="status_bar_clock_style_left">Izquierda</string>
+
+<string name="status_bar_clock_style_center">Centrar</string>
+
+<string name="status_bar_clock_style_hidden">Ocultar</string>
+
+<string name="clock_date_position">Posición de la fecha</string>
+
+<string name="clock_date_right">A la derecha de la hora</string>
+
+<string name="clock_date_left">A la izquierda de la hora</string>
+
+<string name="status_bar_am_pm_title">Estilo AM/PM</string>
+
+<string name="status_bar_am_pm_info">Habilitado formato reloj de 24 horas</string>
+
+<string name="status_bar_am_pm_normal">Normal</string>
+
+<string name="status_bar_am_pm_small">Pequeño</string>
+
+<string name="status_bar_am_pm_hidden">Oculto</string>
+
+<string name="status_bar_date_none">Oculto (predeterminado)</string>
+
+<string name="status_bar_date_small">Pequeño</string>
+
+<string name="status_bar_date_normal">Normal</string>
+
+<string name="status_bar_date_format_title">Formato de la fecha</string>
+
+<string name="status_bar_date_style">Estilo de la fecha</string>
+
+<string name="status_bar_date_style_normal">Normal</string>
+
+<string name="status_bar_date_style_lowercase">Minísculas</string>
+
+<string name="status_bar_date_style_uppercase">Mayúsculas</string>
+
+<string name="status_bar_date_format_custom">Formato java personalizado</string>
+
+<string name="status_bar_date_string_edittext_title">Debe ser en formato fecha ej. MM/DD/YY</string>
+
+<string name="status_bar_date_string_edittext_summary">Introducir cadena</string>
+
+<string name="clock_category">Reloj </string>
+
+<string name="clock_custom">Personalización del reloj</string>
+
+<string name="clock_font_style_title">Fuente</string>
+
+<string name="clock_font_normal">Normal</string>
+
+<string name="clock_font_italic">Cursiva</string>
+
+<string name="clock_font_bold">Negrita</string>
+
+<string name="clock_font_bold_italic">Negrita cursiva</string>
+
+<string name="clock_font_light">Light</string>
+
+<string name="clock_font_light_italic">Light cursiva</string>
+
+<string name="clock_font_thin">Thin</string>
+
+<string name="clock_font_thin_italic">Thin cursiva</string>
+
+<string name="clock_font_condensed">Condensed</string>
+
+<string name="clock_font_condensed_italic">Condensed cursiva</string>
+
+<string name="clock_font_condensed_light">Condensed Light</string>
+
+<string name="clock_font_condensed_light_italic">Condensed Light cursiva</string>
+
+<string name="clock_font_condensed_bold">Condensed negrita</string>
+
+<string name="clock_font_condensed_bold_italic">Condensed negrita cursiva</string>
+
+<string name="clock_font_medium">Mediana</string>
+
+<string name="clock_font_medium_italic">Cursiva mediana</string>
+
+<string name="clock_font_black">Negra</string>
+
+<string name="clock_font_black_italic">Cursiva negra</string>
+
+<string name="clock_font_dancingscript">Dancingscript</string>
+
+<string name="clock_font_dancingscript_bold">Dancingscript negrita</string>
+
+<string name="clock_font_comingsoon">ComingSoon</string>
+
+<string name="clock_font_notoserif">NotoSerif Normal</string>
+
+<string name="clock_font_notoserif_italic">NotoSerif cursiva</string>
+
+<string name="clock_font_notoserif_bold">NotoSerif negrita</string>
+
+<string name="clock_font_notoserif_bold_italic">NotoSerif negrita cursiva</string>
+
+<string name="clock_font_size_title">Tamaño de fuente</string>
+
+<!-- General -->
+
+
+<string name="ok">Ok</string>
+
+<string name="reset">Restablecer</string>
+
+<string name="default_string">Predeterminado</string>
+
+<string name="add">Añadir</string>
+
+<string name="enabled">Habilitado</string>
+
+<string name="choose_app">Elegir aplicación</string>
+
+<string name="help">Ayuda</string>
+
+<string name="reset_message">Restablecer todas las entradas al valor predeterminado?</string>
+
+<string name="attention">Atención</string>
+
+<string name="reset">Restablecer</string>
+
+<string name="restart_systemui">Reiniciar interfaz de usuario</string>
+
+<!-- Battery saver color -->
+
+
+<string name="battery_saver_color_title">Color de aviso</string>
+
+<string name="battery_saver_color_summary">Barra de navegación naranja cuando se activa el ahorro de batería</string>
+
+<!-- Dashboard options -->
+
+
+<string name="dashboard_category">Opciones del panel</string>
+
+<string name="dashboard_suggestions_title">Sugerencias</string>
+
+<string name="summary_dashboard_suggestions_enabled">Panel de sugerencias activado</string>
+
+<string name="summary_dashboard_suggestions_disabled">Panel de sugerencias desactivado</string>
+
+<string name="remove_tile_summaries_title">Resúmenes</string>
+
+<string name="remove_tile_summaries_summary_enabled">Panel de resúmenes activado</string>
+
+<string name="remove_tile_summaries_summary_disabled">Panel de resúmenes desactivado</string>
+
+<string name="dashboard_conditions_title">Condiciones</string>
+
+<string name="summary_dashboard_conditions_enabled">Panel de condiciones activado</string>
+
+<string name="summary_dashboard_conditions_disabled">Panel de condiciones desactivado</string>
+
+<string name="dashboard_columns_portrait_title">Columnas (vertical)</string>
+
+<string name="dashboard_columns_landscape_title">Columnas (horizontal)</string>
+
+<!-- Dashboard columns -->
+
+
+<string name="dashboard_columns_title">Panel de columnas</string>
+
+<string name="dashboard_columns_summary">Cambiar el número de columnas que se muestran en el panel?</string>
+
+<string name="dashboard_columns_dialog_title">Seleccionar columnas del panel</string>
+
+<string name="dashboard_columns_default">Una (dos en horizontal)</string>
+
+<string name="dashboard_columns_two">Dos (tres en horizontal)</string>
+
+<string name="dashboard_columns_three">Tres (cuatro en horizontal)</string>
+
+<string name="dashboard_summary_double_lines_title">Líneas de resumen del panel</string>
+
+<string name="dashboard_summary_double_lines_summary_on">Mostrar el resumen del panel en más líneas</string>
+
+<string name="dashboard_summary_double_lines_summary_off">Mostrar el resumen del panel en 1 línea</string>
+
+<!-- OmniSwitch -->
+
+
+<string name="omniswitch_category">OmniSwitch</string>
+
+<string name="recents_use_omniswitch_title">Usar para recientes</string>
+
+<string name="recents_use_omniswitch_summary">Usar OmniSwitch en lugar de la vista de recientes predeterminada</string>
+
+<string name="omniswitch_start_settings_title">Ajustes</string>
+
+<string name="omniswitch_start_settings_summary">Abrir ajustes de OmniSwitch</string>
+
+<string name="omniswitch_first_time_title">Información</string>
+
+<string name="omniswitch_first_time_message">Asegurarse de tener activado OmniSwitch. Lo puedes hacer usando \"Ajustes\" debajo</string>
+
+<string name="omniswitch_settings_title">OmniSwitch</string>
+
+</resources>v
