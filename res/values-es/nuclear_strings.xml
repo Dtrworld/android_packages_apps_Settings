@@ -307,7 +307,7 @@
  
 <!-- NuclearDesing -->
 <string name="gestures_category">Gestos</string>
-<string name="recents_category">Recientes</string>
+<string name="recents_category">Aplicaciones recientes</string>
 <string name="gesture_anywhere_summary">Crea tus propios gestos para accesos rápidos</string>
 <string name="dashboard_options_title">Estilo del panel</string>
 <string name="dashboard_options_summary">Personaliza el panel de control a tu gusto</string>
