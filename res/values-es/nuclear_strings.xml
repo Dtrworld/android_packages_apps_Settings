@@ -304,5 +304,18 @@
 <string name="omniswitch_first_time_title">Información</string>
 <string name="omniswitch_first_time_message">Asegurarse de tener activado OmniSwitch. Lo puedes hacer entrando en \"Ajustes\" debajo</string>
 <string name="omniswitch_settings_title">OmniSwitch</string>
+ 
+<!-- NuclearDesing -->
+<string name="gestures_category">Gestos</string>
+<string name="recents_category">Recientes</string>
+<string name="gesture_anywhere_summary">Crea tus propios gestos para accesos rápidos</string>
+<string name="dashboard_options_title">Estilo del panel</string>
+<string name="dashboard_options_summary">Personaliza el panel de control a tu gusto</string>
+<string name="omniswitch_summary">Personaliza tus aplicaciones recientes cambiando las de LineageOS por OmniSwitch</string>
+<string name="density_summary">Personaliza la densidad de la pantalla o monitor</string>
+<string name="nuclearsystem_category">Opciones del sistema</string>
+<string name="nuclearlock_category">Ajustes de la pantalla de bloqueo</string>
+<string name="statusbar_icons_category">Iconos de la barra de estado</string>
+<string name="nuclear_clock_summary">Personalizar el reloj y la fecha en la barra de estado</string>
 
 </resources>
