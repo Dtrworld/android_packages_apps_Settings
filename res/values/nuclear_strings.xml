@@ -277,7 +277,6 @@
     <string name="dashboard_summary_double_lines_summary_off">Show dashboard tile summaries in 1 line</string>
 
     <!-- OmniSwitch -->
-    <string name="omniswitch_category">OmniSwitch</string>
     <string name="recents_use_omniswitch_title">Use for recents</string>
     <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
     <string name="omniswitch_start_settings_title">Settings</string>
@@ -285,5 +284,18 @@
     <string name="omniswitch_first_time_title">Information</string>
     <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
     <string name="omniswitch_settings_title">OmniSwitch</string>
+
+    <!-- NuclearDesing -->
+    <string name="gestures_category">Gestures</string>
+    <string name="recents_category">Recents</string>
+    <string name="gesture_anywhere_summary">Make your own gestures to quick access</string>
+    <string name="dashboard_options_title">Dashboard Style</string>
+    <string name="dashboard_options_summary">Customize your dashboard to your liking</string>
+    <string name="omniswitch_summary">Customize your recents apps, replacing LineageOS Recents</string>
+    <string name="density_summary">Customize the display density</string>
+    <string name="nuclearsystem_category">System Options</string>
+    <string name="nuclearlock_category">LockScreen Settings</string>
+    <string name="statusbar_icons_category">StatusBar Icons</string>
+    <string name="nuclear_clock_summary">Customize clock and date on StatusBar</string>
 
 </resources>

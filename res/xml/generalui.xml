@@ -6,68 +6,56 @@
     android:layout="@layout/preference_tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- gesture_anywhere -->
-    <PreferenceScreen
-        android:key="gesture_anywhere"
-        android:fragment="com.android.settings.nucleartweaks.gestureanywhere.GestureAnywhereSettings"
-        android:title="@string/gesture_anywhere_title">
-        </PreferenceScreen>    
+    <PreferenceCategory
+        android:key="gestures_category"
+        android:title="@string/gestures_category">
 
-    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-        android:key="show_su_indicator"
-        android:title="@string/su_indicator"
-        android:summaryOn="@string/su_indicator_summary_on"
-        android:summaryOff="@string/su_indicator_summary_off"
-        android:defaultValue="true" />
+        <!-- gesture_anywhere -->
+        <PreferenceScreen
+            android:key="gesture_anywhere"
+            android:fragment="com.android.settings.nucleartweaks.gestureanywhere.GestureAnywhereSettings"
+            android:title="@string/gesture_anywhere_title"
+            android:summary="@string/gesture_anywhere_summary"
+            android:icon="@drawable/nuclear_gesture_anywhere_icon">
+        </PreferenceScreen>
 
-             <!-- Three-fingers-swipe to screenshot -->
-    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-        android:key="three_finger_gesture"
-        android:title="@string/three_finger_gesture"
-        android:summary="@string/three_finger_gesture_summary"
-        android:defaultValue="false" />
-
-            <PreferenceCategory
-            android:key="dashboard_category"
-            android:title="@string/dashboard_category">
-
+        <!-- Three-fingers-swipe to screenshot -->
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-                android:key="disable_dashboard_suggestions"
-                android:title="@string/dashboard_suggestions_title"
-                android:summaryOn="@string/summary_dashboard_suggestions_enabled"
-                android:summaryOff="@string/summary_dashboard_suggestions_disabled"
-                android:defaultValue="true" />
+            android:key="three_finger_gesture"
+            android:title="@string/three_finger_gesture"
+            android:summary="@string/three_finger_gesture_summary"
+            android:defaultValue="false"
+            android:icon="@drawable/nuclear_three_finger_gesture_icon" />
 
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-                android:key="disable_dashboard_conditions"
-                android:title="@string/dashboard_conditions_title"
-                android:summaryOn="@string/summary_dashboard_conditions_enabled"
-                android:summaryOff="@string/summary_dashboard_conditions_disabled"
-                android:defaultValue="true" />
-
-        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-                android:key="remove_tile_summary"
-                android:title="@string/remove_tile_summaries_title"
-                android:summaryOn="@string/remove_tile_summaries_summary_enabled"
-                android:summaryOff="@string/remove_tile_summaries_summary_disabled"
-                android:defaultValue="true" />
-
-        <com.android.settings.nuclear.Preferences.CustomSeekBarPreference
-                android:key="dashboard_portrait_columns"
-                android:title="@string/dashboard_columns_portrait_title"
-                settings:max="3"
-                settings:min="1"
-                settings:units=""
-                android:persistent="false" />
-
-        <com.android.settings.nuclear.Preferences.CustomSeekBarPreference
-                android:key="dashboard_landscape_columns"
-                android:title="@string/dashboard_columns_landscape_title"
-                settings:max="5"
-                settings:min="1"
-                settings:units=""
-                android:persistent="false" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="dashboard_category"
+        android:title="@string/dashboard_category">
+
+        <!-- Dashboard options -->
+        <PreferenceScreen
+            android:key="dashboard_options"
+            android:fragment="com.android.settings.nuclear.DashBoard"
+            android:title="@string/dashboard_options_title"
+            android:summary="@string/dashboard_options_summary"
+            android:icon="@drawable/nuclear_dashboard_icon">
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="recents_panel"
+        android:title="@string/recents_category" />
+
+    <!-- OmniSwitch -->
+    <PreferenceScreen
+        android:key="omniswitch"
+        android:id="@+id/omniswitch"
+        android:title="@string/omniswitch_settings_title"
+        android:icon="@drawable/nuclear_recents_switcher_icon"
+        android:summary="@string/omniswitch_summary"
+        android:fragment="com.android.settings.nuclear.OmniSwitch" />
 
 </PreferenceScreen>

@@ -5,10 +5,14 @@
     android:title="@string/lockscreen_category"
     android:layout="@layout/preference_tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory
+        android:key="lock_category"
+        android:title="@string/nuclearlock_category" />
 
-    <cyanogenmod.preference.CMSystemSettingSwitchPreference
-        android:key="double_tap_sleep_anywhere"
-        android:title="@string/double_tap_sleep_anywhere_title"
-        android:summary="@string/double_tap_sleep_anywhere_summary"
-        android:defaultValue="true" />
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="double_tap_sleep_anywhere"
+            android:title="@string/double_tap_sleep_anywhere_title"
+            android:summary="@string/double_tap_sleep_anywhere_summary"
+            android:icon="@drawable/nuclear_doubletap_icon"
+            android:defaultValue="true" />
 </PreferenceScreen>

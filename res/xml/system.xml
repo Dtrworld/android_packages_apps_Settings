@@ -6,30 +6,30 @@
     android:layout="@layout/preference_tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <cyanogenmod.preference.CMSecureSettingSwitchPreference
-            android:key="advanced_reboot"
-            android:title="@string/advanced_reboot_title"
-            android:summary="@string/advanced_reboot_summary" />
-
-    <com.android.settings.display.DensityPreference
-            android:key="density"
-            android:title="@string/developer_smallest_width" />
-
-    <SwitchPreference
-            android:key="show_cpu_info"
-            android:title="@string/show_cpu_info"
-            android:summary="@string/show_cpu_info_summary"/>
 
     <PreferenceCategory
-        android:key="omni_recents_panel"
-        android:title="@string/omniswitch_category" />
+        android:key="system_category"
+        android:title="@string/nuclearsystem_category">
 
-        <!-- OmniSwitch -->
-        <PreferenceScreen
-            android:key="omniswitch"
-            android:id="@+id/omniswitch"
-            android:title="@string/omniswitch_settings_title"
-            android:icon="@drawable/nuclear_recents_switcher_icon"
-            android:fragment="com.android.settings.nuclear.OmniSwitch" />
+        <cyanogenmod.preference.CMSecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/advanced_reboot_title"
+            android:summary="@string/advanced_reboot_summary"
+            android:icon="@drawable/nuclear_power_menu_icon"/>
+
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width"
+            android:summary="@string/density_summary"
+            android:icon="@drawable/nuclear_density_icon"/>
+
+        <SwitchPreference
+            android:key="show_cpu_info"
+            android:title="@string/show_cpu_info"
+            android:summary="@string/show_cpu_info_summary"
+            android:icon="@drawable/nuclear_cpu_icon"/>
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>

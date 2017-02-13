@@ -5,27 +5,42 @@
     android:title="@string/statusbar_category"
     android:layout="@layout/preference_tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory
+        android:key="statusbar_icons"
+        android:title="@string/statusbar_icons_category" />
 
-    <PreferenceScreen
-        android:key="network_traffic_state"
-        android:fragment="com.android.settings.nuclear.NetworkTraffic"
-        android:summary="@string/network_traffic_summary"
-        android:title="@string/network_traffic_title" />
+        <PreferenceScreen
+            android:key="network_traffic_state"
+            android:fragment="com.android.settings.nuclear.NetworkTraffic"
+            android:summary="@string/network_traffic_summary"
+            android:title="@string/network_traffic_title"
+            android:icon="@drawable/nuclear_network_traffic_icon"/>
 
-    <com.android.settings.nuclear.Preferences.SystemSettingSwitchPreference
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="show_su_indicator"
+            android:title="@string/su_indicator"
+            android:summaryOn="@string/su_indicator_summary_on"
+            android:summaryOff="@string/su_indicator_summary_off"
+            android:defaultValue="true"
+            android:icon="@drawable/nuclear_root_icon"/>
+
+        <com.android.settings.nuclear.Preferences.SystemSettingSwitchPreference
             android:key="battery_save_mode_color"
             android:title="@string/battery_saver_color_title"
             android:summary="@string/battery_saver_color_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true"
+            android:icon="@drawable/nuclear_battery_saver_icon"/>
 
     <PreferenceCategory
-            android:key="clock"
-            android:title="@string/clock_category" >
+        android:key="clock"
+        android:title="@string/clock_category" >
 
         <PreferenceScreen
             android:key="clock"
             android:title="@string/clock_custom"
-    		android:fragment="com.android.settings.nuclear.ClockSettings" />
+            android:summary="@string/nuclear_clock_summary"
+    		android:fragment="com.android.settings.nuclear.ClockSettings"
+            android:icon="@drawable/nuclear_clock_icon"/>
 
     </PreferenceCategory>
 
