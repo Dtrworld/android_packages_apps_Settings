@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017      The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <!-- Force authorize substratum packages -->
+   <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
+   <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
+
+   <!-- Manage applications: show substratum overlays -->
+   <string name="filter_substratum_apps">Substratum overlays</string>
+   <string name="menu_show_substratum">Show overlays</string>
+   <string name="menu_hide_substratum">Hide overlays</string>
+    
+    <!-- Rom version -->
+    <string name="nr_mod_version">NucleaRom version</string>
+    <string name="nr_version_default">Unknown</string>
+
+	<!-- NucleaRom settings -->
+    <string name="nr_settings_activity">Nuclear settings</string>
+    <string name="nr_settings_activity_summary">Nuclear POWERRR</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
+    <!-- Developer options toast insulter -->
+    <string name="toast_insult_0">Hahaha, n00b!</string>
+    <string name="toast_insult_1">What are you doing??</string>
+    <string name="toast_insult_2">n00b alert!</string>
+    <string name="toast_insult_3">What is this...? Amateur hour!?</string>
+    <string name="toast_insult_4">This is not iOS</string>
+    <string name="toast_insult_5">Please step away from the device!</string>
+    <string name="toast_insult_6">error code: 1D10T</string>
+    <string name="toast_insult_7">Go outside</string>
+    <string name="toast_insult_8">¯\\_(ツ)_/¯</string>
+    <string name="toast_insult_9">Pro tip: Stop doing this!</string>
+    <string name="toast_insult_10">Y u no speak Android???</string>
+    <string name="toast_insult_11">Why are you so stupid?!</string>
+    <string name="toast_insult_12">Perhaps this Android thing is not for you...</string>
+    <string name="toast_insult_13">Don't you have anything better to do?!</string>
+    <string name="toast_insult_14">This is why nobody likes you...</string>
+    <string name="toast_insult_15">Are you even trying?!</string>
+
+    <!-- Reset battery stats -->
+    <string name="ok">Okay</string>
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
+</resources>
